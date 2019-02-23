@@ -19,27 +19,27 @@ window.onload = function () {
     //     zoom: 11.8
     // });
 
-    var circle = L.circle([25.032, 121.565], {
+    var birds = L.circle([25.032, 121.565], {
         color: 'red',
         // fillColor: '#f03',
         fillOpacity: 1,
         radius: 100
     }).addTo(mymap);
 
-    circle.on('mouseover', function(){
-        circle.setStyle({ color: 'blue' });
-        playSound('birds', 0.5, false);
+    birds.on('mouseover', function(){
+        this.setStyle({ color: 'blue' });
+        playSound(birds,'birds', 0.5, false);
     });
 
     
 
- function playSound(fileName, volume, loop) {
+ function playSound(name, fileName, volume, loop) {
     var audio = new Audio('assets/sounds/' + fileName + '.mp3');
     audio.volume = volume;
     audio.loop = loop;
     audio.play();
 
-    circle.on('mouseout', function(){
+    name.on('mouseout', function(){
         audio.pause();
     });
   }
