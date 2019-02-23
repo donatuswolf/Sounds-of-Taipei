@@ -2,35 +2,13 @@ window.onload = function () {
 
     var mymap = L.map('mapid').setView([25.032, 121.565], 13);
     var radiusMin = 10;
-    var radiusMax = 15;
+    var radiusMax = 20;
 
     var color = {
         location: '#00A6A6',
         taipei: 'blue',
         event: 'yellow'
     }
-
-    // var places = [
-    //     {
-    //         id: 'birds',
-    //         vol: 0.5,
-    //         x: 25.032,
-    //         y: 121.565,
-    //         type: 'red'
-    //     },
-    //     {
-    //         id: 'hospital',
-    //         vol: 1,
-    //         x: 25.036732,
-    //         y: 121.553764,
-    //         type: 'blue'
-    //     }
-    // ];
-
-    // var places = loadJSON('places.json');
-
-
-
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -56,6 +34,10 @@ window.onload = function () {
             drawPlaces(json[i]);
         }
 
+        // for (var i in places) {
+        //     drawPlaces(json[i]);
+        // }
+
         // console.log();
 
         function drawPlaces(data) {
@@ -70,7 +52,9 @@ window.onload = function () {
             circle.on('mouseover', function () {
                 // this.setStyle({ color: 'blue' });
                 playSound(data.id, data.vol);
-                this.setRadius(radiusMax)
+                // this.setRadius(radiusMax)
+                this.setRadius(map(data.db, 0, 1, radiusMin, radiusMax));
+                console.log(this.getRadius());
             });
 
             function playSound(name, volume) {
@@ -86,5 +70,9 @@ window.onload = function () {
             }
         }
     });
+
+    function map(x, in_min, in_max, out_min, out_max) {
+        return (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+    }
 
 }
