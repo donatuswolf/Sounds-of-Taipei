@@ -17,8 +17,8 @@ html, body {
 }
 
 .title {
-    line-height: 80px;
-    margin: 0;
+    height: 40px;
+    margin: auto 0;
 }
 
 .legend {
@@ -26,11 +26,36 @@ html, body {
     margin: 0;
     display: flex;
     justify-content: flex-end;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: gray;
 }
 
 .legend li {
-    padding-left: 20px;
     list-style: none;
+    color: red;
+    font-weight: bold;
+    background-color: #880000;
+    line-height: 40px;
+    padding: 0 20px;
+    margin: 20px 10px;
+    border-radius: 100px;
+}
+
+.legend .item2 {
+    color: blue;
+    background-color: rgb(8, 8, 92);
+}
+
+.legend .item3 {
+    color: green;
+    background-color: rgb(1, 39, 1);
+}
+
+.legend .item4 {
+    color: yellow;
+    background-color: rgb(95, 95, 6);
 }
 
 #mapid {
