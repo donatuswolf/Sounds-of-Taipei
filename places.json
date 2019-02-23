@@ -1,0 +1,29 @@
+[
+    {
+        "id": "birds",
+        "vol": 0.5,
+        "db": 0.7,
+        "x": 25.032,
+        "y": 121.565,
+        "type": "location",
+        "time": "day"
+    },
+    {
+        "id": "bus",
+        "vol": 0.5,
+        "db": 0.7,
+        "x": 25.026504,
+        "y": 121.529091,
+        "type": "taipei",
+        "time": "day"
+    },
+    {
+        "id": "hospital",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.036732,
+        "y": 121.553764,
+        "type": "location",
+        "time": "day"
+    }
+]
