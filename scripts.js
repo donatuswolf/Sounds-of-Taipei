@@ -1,6 +1,8 @@
 window.onload = function () {
 
     var mymap = L.map('mapid').setView([25.032, 121.565], 13);
+    var radius = 100;
+    var radiusSelected = 150;
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
@@ -23,24 +25,26 @@ window.onload = function () {
         color: 'red',
         // fillColor: '#f03',
         fillOpacity: 1,
-        radius: 100
+        radius: radius
     }).addTo(mymap);
 
     birds.on('mouseover', function(){
-        this.setStyle({ color: 'blue' });
-        playSound(birds,'birds', 0.5, false);
+        // this.setStyle({ color: 'blue' });
+        playSound(birds,'birds', 0.5);
+        this.setRadius(radiusSelected)
     });
 
     
 
- function playSound(name, fileName, volume, loop) {
+ function playSound(name, fileName, volume) {
     var audio = new Audio('assets/sounds/' + fileName + '.mp3');
     audio.volume = volume;
-    audio.loop = loop;
+    audio.loop = true;
     audio.play();
 
     name.on('mouseout', function(){
         audio.pause();
+        name.setRadius(radius)
     });
   }
 
