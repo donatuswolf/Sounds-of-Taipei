@@ -11,30 +11,6 @@
         "author": "DWo"
     },
     {
-        "id": "bus",
-        "label": "",
-        "googlemaps": "",
-        "vol": 0.5,
-        "db": 0.7,
-        "x": 25.026504,
-        "y": 121.529091,
-        "type": "city",
-        "time": "day",
-        "author": "JKo"
-    },
-    {
-        "id": "hospital",
-        "label": "",
-        "googlemaps": "",
-        "vol": 1,
-        "db": 0.4,
-        "x": 25.036732,
-        "y": 121.553764,
-        "type": "city",
-        "time": "day",
-        "author": "JKo"
-    },
-    {
         "id": "AtHomeFridayMorning2",
         "label": "",
         "googlemaps": "",
@@ -185,7 +161,7 @@
         "vol": 0.6,
         "db": 0.6,
         "x": 25.023106,
-        "y": 121.516742, 
+        "y": 121.516742,
         "type": "city",
         "time": "day",
         "author": "DWo"
@@ -205,7 +181,7 @@
     {
         "id": "DongmenStation",
         "label": "MRT Dongmen Station Melody",
-        "googlemaps":"https://goo.gl/maps/8omf5YbDZ852",
+        "googlemaps": "https://goo.gl/maps/8omf5YbDZ852",
         "vol": 1,
         "db": 0.5,
         "x": 25.033929,
@@ -217,7 +193,7 @@
     {
         "id": "LongshanTempleStation",
         "label": "MRT Longshan Temple Station Melody",
-        "googlemaps":"https://goo.gl/maps/zKgWhdaCWC12",
+        "googlemaps": "https://goo.gl/maps/zKgWhdaCWC12",
         "vol": 1,
         "db": 0.5,
         "x": 25.035280,
@@ -229,7 +205,7 @@
     {
         "id": "SongshanAirportStation",
         "label": "MRT Songshan Airport Station Melody",
-        "googlemaps":"https://goo.gl/maps/Fxo8Agu7GsS2",
+        "googlemaps": "https://goo.gl/maps/Fxo8Agu7GsS2",
         "vol": 1,
         "db": 0.5,
         "x": 25.063232,
@@ -241,7 +217,7 @@
     {
         "id": "TaipeiArenaStation",
         "label": "MRT Taipei Arena Station Melody",
-        "googlemaps":"https://goo.gl/maps/RKtU6rY4Ln52",
+        "googlemaps": "https://goo.gl/maps/RKtU6rY4Ln52",
         "vol": 1,
         "db": 0.5,
         "x": 25.051717,
@@ -253,7 +229,7 @@
     {
         "id": "XiangshanStation",
         "label": "MRT Xiangshan Station Melody",
-        "googlemaps":"https://goo.gl/maps/PZEEaSueyJQ2",
+        "googlemaps": "https://goo.gl/maps/PZEEaSueyJQ2",
         "vol": 1,
         "db": 0.5,
         "x": 25.032788,
@@ -261,5 +237,125 @@
         "type": "location",
         "time": "day",
         "author": "MRT"
+    },
+    {
+        "id": "construction",
+        "label": "Construction going on near MRT Technology Building Station",
+        "googlemaps": "https://goo.gl/maps/NPXntoaVNws",
+        "vol": 0.8,
+        "db": 0.9,
+        "x": 25.026068,
+        "y": 121.543453,
+        "type": "location",
+        "time": "day",
+        "author": "JKo"
+    },
+    {
+        "id": "forest",
+        "label": "Sounds of animals and rain in the forest",
+        "googlemaps": "https://goo.gl/maps/FzFa6VszaEU2",
+        "vol": 0.5,
+        "db": 0.4,
+        "x": 24.98299,
+        "y": 121.583298,
+        "type": "city",
+        "time": "day",
+        "author": "JKo"
+    },
+    {
+        "id": "inMrt",
+        "label": "Inside the MRT driving through Da’an District",
+        "googlemaps": "https://goo.gl/maps/dbiCX2Hn32p",
+        "vol": 0.7,
+        "db": 0.7,
+        "x": 25.022092,
+        "y": 121.554945,
+        "type": "city",
+        "time": "day",
+        "author": "JKo"
+    },
+    {
+        "id": "MrtCheckin",
+        "label": "People checking in and out of Sanchong Elementary School Station",
+        "googlemaps": "https://goo.gl/maps/4j2DG2KvsuF2",
+        "vol": 0.8,
+        "db": 0.9,
+        "x": 25.070711,
+        "y": 121.496751,
+        "type": "city",
+        "time": "",
+        "author": "JKo"
+    },
+    {
+        "id": "SingingBells",
+        "label": "Bells and Women singing in the distance",
+        "googlemaps": "https://goo.gl/maps/WDGjpjD2W3p",
+        "vol": 1,
+        "db": 0.3,
+        "x": 25.0248956,
+        "y": 121.518235,
+        "type": "location",
+        "time": "day",
+        "author": "JKo"
+    },
+    {
+        "id": "StreetTrafficConstruction",
+        "label": "A busy intersection",
+        "googlemaps": "https://goo.gl/maps/3zt3aGNkscn",
+        "vol": 1,
+        "db": 0.8,
+        "x": 25.026938,
+        "y": 121.522100,
+        "type": "city",
+        "time": "day",
+        "author": "JKo"
+    },
+    {
+        "id": "traffic1",
+        "label": "A busy street at night",
+        "googlemaps": "https://goo.gl/maps/mbx3qEFz8L42",
+        "vol": 0.9,
+        "db": 1,
+        "x": 25.051466,
+        "y": 121.522473,
+        "type": "city",
+        "time": "night",
+        "author": "JKo"
+    },
+    {
+        "id": "traffic2",
+        "label": "A busy street",
+        "googlemaps": "https://goo.gl/maps/PrPEd1JFX932",
+        "vol": 0.9,
+        "db": 1,
+        "x": 25.024681,
+        "y": 121.520234,
+        "type": "city",
+        "time": "day",
+        "author": "JKo"
+    },
+    {
+        "id": "bus",
+        "label": "Inside a bus",
+        "googlemaps": "https://goo.gl/maps/E2RZN2UeYUG2",
+        "vol": 0.5,
+        "db": 0.7,
+        "x": 25.026504,
+        "y": 121.529091,
+        "type": "city",
+        "time": "day",
+        "author": "JKo"
+    },
+    {
+        "id": "hospital",
+        "label": "Inside Cathay General Hospital",
+        "googlemaps": "https://goo.gl/maps/fiuuhyhM9tB2",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.036732,
+        "y": 121.553764,
+        "type": "city",
+        "time": "day",
+        "author": "JKo"
     }
 ]
