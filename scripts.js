@@ -27,6 +27,8 @@ window.onload = function () {
     //     zoom: 11.8
     // });
 
+    $('#photo').addClass('hidden');
+
     var places = $.getJSON("places.json", function (json) {
         console.log(json); // show the JSON file content into console
         console.log(json.length);
@@ -57,6 +59,7 @@ window.onload = function () {
                 // $('#photo').attr('background', 'url(assets/photos/' + data.id + '.png)');
                 $('#photo').css('background-image', 'url(assets/photos/' + data.id + '.png)');  
                 $('#label').html(data.label);
+                $('#photo').removeClass('hidden');
             });
 
             circle.on('dblclick', function () {
@@ -74,6 +77,7 @@ window.onload = function () {
                 circle.on('mouseout', function () {
                     audio.pause();
                     circle.setRadius(radiusMin)
+                    $('#photo').addClass('hidden');
                 });
             }
         }
