@@ -44,13 +44,15 @@ body {
 
 .logo {
     background: url(assets/logo.svg);
-    background-position: 14px center;
+    background-position: center center;
     background-repeat: no-repeat;
-    height: 60px;
+    height: 90px;
+    /* width: 100%; */
 }
 
 .howto {
     margin: 0 0 40px 0;
+    color: #646978;
 }
 
 .legend {
@@ -61,14 +63,14 @@ body {
 
 .legend li {
     list-style: none;
-    color: gray;
+    color: #636876;
     padding-left: 24px;
 }
 
 .legend li h3 {
     font-size: 16px;
     font-weight: 400;
-    color: black;
+    color: #646978;
     margin: 20px 0 0 0;
     /* text-transform: uppercase;
     letter-spacing: 2px; */
@@ -84,15 +86,15 @@ body {
   }
 
 .legend .item1 h3::before {
-    color: #FFBF46;
+    color: #3a7bbf;
 }
 
 .legend .item2 h3::before {
-    color: #4DA1A9;
+    color: #99e0dc;
 }
 
 .legend .item3 h3::before {
-    color: #D7E8BA;
+    color: #ae65d5;
 }
 
 .legend li p {
@@ -105,9 +107,13 @@ body {
     font-size: 14px;
     line-height: 16px;
     text-transform: none;
-    color: gray;
+    color: #636876;
     margin-bottom: -16px;
     text-decoration: none;
+}
+
+.credits a:hover {
+    color: #ec4667;
 }
 
 #photo {

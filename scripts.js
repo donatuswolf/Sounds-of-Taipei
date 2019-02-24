@@ -5,9 +5,9 @@ window.onload = function () {
     var radiusMax = 20;
 
     var color = {
-        city: '#FFBF46', //DEEP SAFFRON
-        location: '#4DA1A9', //CADET BLUE
-        event: '#D7E8BA' //TEA GREEN
+        city: '#3a7bbf',
+        location: '#99e0dc',
+        event: '#ae65d5'
     }
 
     L.tileLayer('https://api.mapbox.com/styles/v1/donatuswolf/cjshijl1c13o41empmevvh85j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG9uYXR1c3dvbGYiLCJhIjoiY2pzaGdrcGMzMG40aDQzbjVudTJhZzZ6ZyJ9.McGYoRXAEFRlb9lG8CMXmg').addTo(mymap);
