@@ -1,6 +1,6 @@
 window.onload = function () {
 
-    var mymap = L.map('mapid').setView([25.032, 121.565], 13);
+    var mymap = L.map('mapid').setView([25.032, 121.53], 13);
     var radiusMin = 10;
     var radiusMax = 20;
 
