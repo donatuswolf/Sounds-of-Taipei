@@ -78,5 +78,55 @@
         "type": "location",
         "time": "day",
         "author": "MRu"
-    }  
+    },  
+    {
+        "id": "DongmenStation",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.033931,
+        "y": 121.528528,
+        "type": "location",
+        "time": "day",
+        "author": "MRT"
+    },
+    {
+        "id": "LongshanTempleStation",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.033931,
+        "y": 121.528528,
+        "type": "location",
+        "time": "day",
+        "author": "MRT"
+    },
+    {
+        "id": "SongshanAirportStation",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.033931,
+        "y": 121.528528,
+        "type": "location",
+        "time": "day",
+        "author": "MRT"
+    },
+    {
+        "id": "TaipeiArenaStation",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.033931,
+        "y": 121.528528,
+        "type": "location",
+        "time": "day",
+        "author": "MRT"
+    },
+    {
+        "id": "XiangshanStation",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.033931,
+        "y": 121.528528,
+        "type": "location",
+        "time": "day",
+        "author": "MRT"
+    }
 ]
