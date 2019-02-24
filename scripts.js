@@ -6,7 +6,7 @@ window.onload = function () {
 
     var color = {
         location: '#00A6A6',
-        taipei: 'blue',
+        city: 'blue',
         event: 'yellow'
     }
 
