@@ -11,9 +11,9 @@
         "author": "DWo"
     },
     {
-        "id": "AtHomeFridayMorning2",
-        "label": "",
-        "googlemaps": "",
+        "id": "AtHomeFridayMorning",
+        "label": "Bells and women singing in the distance",
+        "googlemaps": "https://goo.gl/maps/ZnxZ6vERCqv",
         "vol": 1,
         "db": 0.3,
         "x": 25.025064,
@@ -24,8 +24,8 @@
     },
     {
         "id": "NTUTClassroom",
-        "label": "",
-        "googlemaps": "",
+        "label": "NTUT Studio Classroom",
+        "googlemaps": "https://goo.gl/maps/AwVPaS21UrN2",
         "vol": 1,
         "db": 0.2,
         "x": 25.042637,
@@ -36,8 +36,8 @@
     },
     {
         "id": "MRTWaitingForTrain_IMG_2910",
-        "label": "",
-        "googlemaps": "",
+        "label": "Waiting for a train at Guting Station with crying baby",
+        "googlemaps": "https://goo.gl/maps/FFdm5Uf9F662",
         "vol": 1,
         "db": 0.6,
         "x": 25.021892,
@@ -48,8 +48,8 @@
     },
     {
         "id": "MRTCheckout2",
-        "label": "",
-        "googlemaps": "",
+        "label": "MRT Checkout",
+        "googlemaps": "https://goo.gl/maps/XmtcDpuqLhx",
         "vol": 1,
         "db": 0.5,
         "x": 24.998084,
@@ -60,8 +60,8 @@
     },
     {
         "id": "IjyshengGongguanStore_IMG_2906",
-        "label": "",
-        "googlemaps": "",
+        "label": "Bakery with German music",
+        "googlemaps": "https://goo.gl/maps/pEoo7xLosaM2",
         "vol": 1,
         "db": 0.4,
         "x": 25.017813,
@@ -96,7 +96,7 @@
     },
     {
         "id": "arrivingTRA",
-        "label": "arriving Train at Wanhua Station",
+        "label": "Arriving Train at Wanhua Station",
         "googlemaps": "https://goo.gl/maps/jDNVE54YrAo",
         "vol": 1,
         "db": 0.4,
@@ -284,18 +284,6 @@
         "y": 121.496751,
         "type": "city",
         "time": "",
-        "author": "JKo"
-    },
-    {
-        "id": "SingingBells",
-        "label": "Bells and Women singing in the distance",
-        "googlemaps": "https://goo.gl/maps/WDGjpjD2W3p",
-        "vol": 1,
-        "db": 0.3,
-        "x": 25.0248956,
-        "y": 121.518235,
-        "type": "location",
-        "time": "day",
         "author": "JKo"
     },
     {
