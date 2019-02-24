@@ -177,5 +177,29 @@
         "type": "city",
         "time": "day",
         "author": "DWo"
+    },
+    {
+        "id": "scooter",
+        "label": "Scooters on the road",
+        "googlemaps": "https://goo.gl/maps/qzxgwWAu3QL2",
+        "vol": 0.6,
+        "db": 0.6,
+        "x": 25.023106,
+        "y": 121.516742, 
+        "type": "city",
+        "time": "day",
+        "author": "DWo"
+    },
+    {
+        "id": "zhinanTemple",
+        "label": "Zhinan Temple",
+        "googlemaps": "https://goo.gl/maps/xvtYJzuKHps",
+        "vol": 1,
+        "db": 0.1,
+        "x": 24.979893,
+        "y": 121.586576,
+        "type": "location",
+        "time": "day",
+        "author": "DWo"
     }
 ]
