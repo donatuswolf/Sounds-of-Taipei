@@ -1,8 +1,7 @@
-[
-    {
+[{
         "id": "birds",
         "label": "bird street",
-        "googlemaps":"",
+        "googlemaps": "",
         "vol": 0.5,
         "db": 0.7,
         "x": 25.034531,
@@ -14,7 +13,7 @@
     {
         "id": "bus",
         "label": "",
-        "googlemaps":"",
+        "googlemaps": "",
         "vol": 0.5,
         "db": 0.7,
         "x": 25.026504,
@@ -26,7 +25,7 @@
     {
         "id": "hospital",
         "label": "",
-        "googlemaps":"",
+        "googlemaps": "",
         "vol": 1,
         "db": 0.4,
         "x": 25.036732,
@@ -38,7 +37,7 @@
     {
         "id": "AtHomeFridayMorning2",
         "label": "",
-        "googlemaps":"",
+        "googlemaps": "",
         "vol": 1,
         "db": 0.3,
         "x": 25.025064,
@@ -50,7 +49,7 @@
     {
         "id": "NTUTClassroom",
         "label": "",
-        "googlemaps":"",
+        "googlemaps": "",
         "vol": 1,
         "db": 0.2,
         "x": 25.042637,
@@ -62,7 +61,7 @@
     {
         "id": "MRTWaitingForTrain_IMG_2910",
         "label": "",
-        "googlemaps":"",
+        "googlemaps": "",
         "vol": 1,
         "db": 0.6,
         "x": 25.021892,
@@ -74,7 +73,7 @@
     {
         "id": "MRTCheckout2",
         "label": "",
-        "googlemaps":"",
+        "googlemaps": "",
         "vol": 1,
         "db": 0.5,
         "x": 24.998084,
@@ -86,7 +85,7 @@
     {
         "id": "IjyshengGongguanStore_IMG_2906",
         "label": "",
-        "googlemaps":"",
+        "googlemaps": "",
         "vol": 1,
         "db": 0.4,
         "x": 25.017813,
@@ -98,7 +97,7 @@
     {
         "id": "mainStationHall",
         "label": "",
-        "googlemaps":"",
+        "googlemaps": "",
         "vol": 1,
         "db": 0.4,
         "x": 25.048724,
@@ -110,7 +109,7 @@
     {
         "id": "twinkleTaipei",
         "label": "LED Pig at Twinkle Taipei Twinkle",
-        "googlemaps":"https://goo.gl/maps/V5KuYML8RS72",
+        "googlemaps": "https://goo.gl/maps/V5KuYML8RS72",
         "vol": 0.4,
         "db": 1,
         "x": 25.042266,
@@ -122,7 +121,7 @@
     {
         "id": "arrivingTRA",
         "label": "arriving Train at Wanhua Station",
-        "googlemaps":"https://goo.gl/maps/jDNVE54YrAo",
+        "googlemaps": "https://goo.gl/maps/jDNVE54YrAo",
         "vol": 1,
         "db": 0.4,
         "x": 25.033343,
@@ -134,7 +133,7 @@
     {
         "id": "garbageTruck",
         "label": "Garbage truck",
-        "googlemaps":"https://goo.gl/maps/RHVCsU4os4J2",
+        "googlemaps": "https://goo.gl/maps/RHVCsU4os4J2",
         "vol": 1,
         "db": 0.4,
         "x": 25.027174,
@@ -146,7 +145,7 @@
     {
         "id": "longshanTemple",
         "label": "Longshan Temple",
-        "googlemaps":"https://goo.gl/maps/MDgHfUBkexu",
+        "googlemaps": "https://goo.gl/maps/MDgHfUBkexu",
         "vol": 1,
         "db": 0.4,
         "x": 25.037062,
@@ -158,7 +157,7 @@
     {
         "id": "mainStationEntranceMRT",
         "label": "entering MRT at main station",
-        "googlemaps":"https://goo.gl/maps/tNvQgP2TnMJ2",
+        "googlemaps": "https://goo.gl/maps/tNvQgP2TnMJ2",
         "vol": 1,
         "db": 0.4,
         "x": 25.047787,
@@ -170,7 +169,7 @@
     {
         "id": "bus226",
         "label": "Bus 226 to Sanchong",
-        "googlemaps":"https://goo.gl/maps/LipKYiSCD8M2",
+        "googlemaps": "https://goo.gl/maps/LipKYiSCD8M2",
         "vol": 0.6,
         "db": 0.3,
         "x": 25.050843,
