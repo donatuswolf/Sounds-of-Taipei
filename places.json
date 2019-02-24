@@ -142,5 +142,41 @@
         "type": "city",
         "time": "night",
         "author": "DWo"
+    },
+    {
+        "id": "longshanTemple",
+        "label": "Longshan Temple",
+        "googlemaps":"https://goo.gl/maps/MDgHfUBkexu",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.037062,
+        "y": 121.499903,
+        "type": "location",
+        "time": "day",
+        "author": "DWo"
+    },
+    {
+        "id": "mainStationEntranceMRT",
+        "label": "entering MRT at main station",
+        "googlemaps":"https://goo.gl/maps/tNvQgP2TnMJ2",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.047787,
+        "y": 121.516962,
+        "type": "city",
+        "time": "day",
+        "author": "DWo"
+    },
+    {
+        "id": "bus226",
+        "label": "Bus 226 to Sanchong",
+        "googlemaps":"https://goo.gl/maps/LipKYiSCD8M2",
+        "vol": 0.6,
+        "db": 0.3,
+        "x": 25.050843,
+        "y": 121.533030,
+        "type": "city",
+        "time": "day",
+        "author": "DWo"
     }
 ]

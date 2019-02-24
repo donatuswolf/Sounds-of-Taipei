@@ -29,7 +29,7 @@ window.onload = function () {
 
     var places = $.getJSON("places.json", function (json) {
         console.log(json); // show the JSON file content into console
-
+        console.log(json.length);
         for (var i = 0; i < json.length; i++) {
             drawPlaces(json[i]);
         }
