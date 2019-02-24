@@ -201,5 +201,65 @@
         "type": "location",
         "time": "day",
         "author": "DWo"
+    },
+    {
+        "id": "DongmenStation",
+        "label": "MRT Dongmen Station Melody",
+        "googlemaps":"https://goo.gl/maps/8omf5YbDZ852",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.033929,
+        "y": 121.528521,
+        "type": "location",
+        "time": "day",
+        "author": "MRT"
+    },
+    {
+        "id": "LongshanTempleStation",
+        "label": "MRT Longshan Temple Station Melody",
+        "googlemaps":"https://goo.gl/maps/zKgWhdaCWC12",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.035280,
+        "y": 121.500371,
+        "type": "location",
+        "time": "day",
+        "author": "MRT"
+    },
+    {
+        "id": "SongshanAirportStation",
+        "label": "MRT Songshan Airport Station Melody",
+        "googlemaps":"https://goo.gl/maps/Fxo8Agu7GsS2",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.063232,
+        "y": 121.551632,
+        "type": "location",
+        "time": "day",
+        "author": "MRT"
+    },
+    {
+        "id": "TaipeiArenaStation",
+        "label": "MRT Taipei Arena Station Melody",
+        "googlemaps":"https://goo.gl/maps/RKtU6rY4Ln52",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.051717,
+        "y": 121.552076,
+        "type": "location",
+        "time": "day",
+        "author": "MRT"
+    },
+    {
+        "id": "XiangshanStation",
+        "label": "MRT Xiangshan Station Melody",
+        "googlemaps":"https://goo.gl/maps/PZEEaSueyJQ2",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.032788,
+        "y": 121.570237,
+        "type": "location",
+        "time": "day",
+        "author": "MRT"
     }
 ]
