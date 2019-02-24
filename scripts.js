@@ -6,7 +6,7 @@ window.onload = function () {
 
     var color = {
         location: '#00A6A6',
-        city: 'blue',
+        taipei: 'blue',
         event: 'yellow'
     }
 
@@ -33,6 +33,10 @@ window.onload = function () {
         for (var i = 0; i < 3; i++) {
             drawPlaces(json[i]);
         }
+
+        // for (var i in places) {
+        //     drawPlaces(json[i]);
+        // }
 
         // console.log();
 

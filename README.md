@@ -7,13 +7,12 @@ City soundscape
 1st week assignment </br>
 Febraury 19th – 26th 2019
 
-Database structure `places.json`
----
+##Database structure `places.json`
 
 `id`:exact name of the sound file </br>
 sound file needs to be at *./assets/sounds*
 
-`vol`:  how loud the song should be played on a scale from 0 (no sound) to 1 (maximum)
+`vol`:  how lound the song should be played on a scale from 0 (no sound) to 1 (maximum)
 
 `db`:   how loud the song is on a scale from 0 to 1  </br>
         that creates the size of the circle when hovered
