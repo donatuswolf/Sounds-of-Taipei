@@ -10,10 +10,10 @@ window.onload = function () {
         event: '#D7E8BA' //TEA GREEN
     }
 
-    L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+    L.tileLayer('https://api.tiles.mapbox.com/styles/v1/{id}/{z}/{x}/{y}@2x?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 18,
-        id: 'mapbox.light',
+        id: 'mapbox/light-v9/tiles/256',
         accessToken: 'pk.eyJ1IjoiZG9uYXR1c3dvbGYiLCJhIjoiY2pzaGdrcGMzMG40aDQzbjVudTJhZzZ6ZyJ9.McGYoRXAEFRlb9lG8CMXmg'
     }).addTo(mymap);
 
@@ -57,7 +57,9 @@ window.onload = function () {
             });
 
             circle.on('dblclick', function () {
-                window.open(data.googlemaps,'_blank');
+                if (data.googlemaps != '') {
+                    window.open(data.googlemaps,'_blank'); 
+                }    
             });
 
             function playSound(name, volume) {
