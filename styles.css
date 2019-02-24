@@ -2,7 +2,9 @@ html, body {
     width: 100%;
     height: 100%;
     margin: 0;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
     font-weight: 300;
     position: relative;
 }
@@ -47,8 +49,6 @@ html, body {
 }
 
 .howto {
-    font-size: 20px;
-    line-height: 22px;
     margin: 0 0 40px 0;
 }
 
@@ -65,21 +65,21 @@ html, body {
 }
 
 .legend li h3 {
-    font-weight: 700;
-    font-size: 12px;
-    margin: 20px 0 4px 0;
-    margin-bottom: 4px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin: 20px 0 0 0;
+    /* text-transform: uppercase;
+    letter-spacing: 2px; */
     position: relative;
 }
 
 .legend h3::before {
     content: "•";
-    font-size: 40px;
+    font-size: 80px;
     position: absolute;
-    left: -27px;
-    top: -12px;
+    left: -58px;
+    top: -1px;
   }
 
 .legend .item1 h3::before {
@@ -95,18 +95,18 @@ html, body {
 }
 
 .legend li p {
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 300;
     margin: 0;
 }
 
-.credits {
-    font-size: 13px;
+.credits, .credits a {
+    font-size: 14px;
     line-height: 16px;
     text-transform: none;
-    color: rgb(173, 173, 173);
+    color: gray;
     margin-bottom: -16px;
-    text-align: center;
-
+    text-decoration: none;
 }
 
 #photo {
@@ -131,6 +131,7 @@ html, body {
     margin: 0;
     padding: 16px;
     padding-bottom: 24px;
+    font-weight: 400;
     text-shadow: 0 2px 4px #00000060;
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.6+0,0+100 */
