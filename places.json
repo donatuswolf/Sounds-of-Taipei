@@ -6,7 +6,8 @@
         "x": 25.032,
         "y": 121.565,
         "type": "location",
-        "time": "day"
+        "time": "day",
+        "author": "DWo"
     },
     {
         "id": "bus",
@@ -14,8 +15,9 @@
         "db": 0.7,
         "x": 25.026504,
         "y": 121.529091,
-        "type": "taipei",
-        "time": "day"
+        "type": "city",
+        "time": "day",
+        "author": "JKo"
     },
     {
         "id": "hospital",
@@ -23,7 +25,8 @@
         "db": 0.4,
         "x": 25.036732,
         "y": 121.553764,
-        "type": "location",
-        "time": "day"
+        "type": "city",
+        "time": "day",
+        "author": "JKo"
     }
 ]
