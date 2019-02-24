@@ -1,7 +1,7 @@
 [{
         "id": "birds",
-        "label": "bird street",
-        "googlemaps": "",
+        "label": "Bird street",
+        "googlemaps": "https://goo.gl/maps/mPdgYM41Az92",
         "vol": 0.5,
         "db": 0.7,
         "x": 25.034531,
@@ -96,12 +96,12 @@
     },
     {
         "id": "mainStationHall",
-        "label": "",
-        "googlemaps": "",
+        "label": "Hall of the main station",
+        "googlemaps": "https://goo.gl/maps/nkpoNxs4w6G2",
         "vol": 1,
         "db": 0.4,
-        "x": 25.048724,
-        "y": 121.514265,
+        "x": 25.047741,
+        "y": 121.517130,
         "type": "location",
         "time": "day",
         "author": "DWo"
