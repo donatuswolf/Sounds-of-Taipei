@@ -17,10 +17,10 @@ html, body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 3;
+    z-index: 2;
     background: #FFFFFF;
     border-radius: 0 10px 10px 0;
-    box-shadow: 0 6px 12px 0 rgba(0,0,0,0.45);
+    box-shadow: 4px 0 8px 0 rgba(0,0,0,0.2);
     /* animation-name: sidebarMove;
     animation-duration: 1s; */
 }
@@ -90,7 +90,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     top: 20px;
     right: 20px;
     height: 235px;
