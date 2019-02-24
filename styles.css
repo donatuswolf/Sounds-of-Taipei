@@ -21,6 +21,8 @@ html, body {
     background: #FFFFFF;
     border-radius: 0 10px 10px 0;
     box-shadow: 0 6px 12px 0 rgba(0,0,0,0.45);
+    /* animation-name: sidebarMove;
+    animation-duration: 1s; */
 }
 
 .logo {
@@ -106,3 +108,8 @@ html, body {
 .leaflet-top {
     right: 0;
 }
+
+/* @keyframes sidebarMove {
+    0%   {left:-280px;}
+    100% {left:0px;}
+  } */
