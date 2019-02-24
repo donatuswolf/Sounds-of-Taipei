@@ -5,9 +5,9 @@ window.onload = function () {
     var radiusMax = 20;
 
     var color = {
-        location: '#00A6A6',
-        city: 'blue',
-        event: 'yellow'
+        city: '#FFBF46', //DEEP SAFFRON
+        location: '#4DA1A9', //CADET BLUE
+        event: '#D7E8BA' //TEA GREEN
     }
 
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -30,7 +30,7 @@ window.onload = function () {
     var places = $.getJSON("places.json", function (json) {
         console.log(json); // show the JSON file content into console
 
-        for (var i = 0; i < 8; i++) {
+        for (var i = 0; i < json.length; i++) {
             drawPlaces(json[i]);
         }
 
@@ -54,6 +54,10 @@ window.onload = function () {
                 playSound(data.id, data.vol);
                 // this.setRadius(radiusMax)
                 this.setRadius(map(data.db, 0, 1, radiusMin, radiusMax));
+            });
+
+            circle.on('dblclick', function () {
+                window.open(data.googlemaps,'_blank');
             });
 
             function playSound(name, volume) {
