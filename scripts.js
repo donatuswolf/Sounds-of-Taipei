@@ -54,7 +54,6 @@ window.onload = function () {
                 playSound(data.id, data.vol);
                 // this.setRadius(radiusMax)
                 this.setRadius(map(data.db, 0, 1, radiusMin, radiusMax));
-                console.log(this.getRadius());
             });
 
             function playSound(name, volume) {
