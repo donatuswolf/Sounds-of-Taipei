@@ -28,5 +28,55 @@
         "type": "city",
         "time": "day",
         "author": "JKo"
-    }
+    },
+    {
+        "id": "AtHomeFridayMorning2",
+        "vol": 1,
+        "db": 0.3,
+        "x": 25.025064,
+        "y": 121.517959,
+        "type": "location",
+        "time": "day",
+        "author": "MRu"
+    },
+    {
+        "id": "NTUTClassroom",
+        "vol": 1,
+        "db": 0.2,
+        "x": 25.042637,
+        "y": 121.533285,
+        "type": "location",
+        "time": "day",
+        "author": "MRu"
+    },
+    {
+        "id": "MRTWaitingForTrain_IMG_2910",
+        "vol": 1,
+        "db": 0.6,
+        "x": 25.021892,
+        "y": 121.527356,
+        "type": "city",
+        "time": "day",
+        "author": "MRu"
+    },
+    {
+        "id": "MRTCheckout2",
+        "vol": 1,
+        "db": 0.5,
+        "x": 24.998084,
+        "y": 121.579582,
+        "type": "city",
+        "time": "day",
+        "author": "MRu"
+    },
+    {
+        "id": "IjyshengGongguanStore_IMG_2906",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.017813,
+        "y": 121.531521,
+        "type": "location",
+        "time": "day",
+        "author": "MRu"
+    }  
 ]
