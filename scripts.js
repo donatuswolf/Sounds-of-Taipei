@@ -54,6 +54,9 @@ window.onload = function () {
                 playSound(data.id, data.vol);
                 // this.setRadius(radiusMax)
                 this.setRadius(map(data.db, 0, 1, radiusMin, radiusMax));
+                // $('#photo').attr('background', 'url(assets/photos/' + data.id + '.png)');
+                $('#photo').css('background-image', 'url(assets/photos/' + data.id + '.png)');  
+                $('#label').html(data.label);
             });
 
             circle.on('dblclick', function () {
