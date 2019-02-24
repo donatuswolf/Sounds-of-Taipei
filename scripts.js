@@ -32,6 +32,7 @@ window.onload = function () {
 
         for (var i = 0; i < 13; i++) {
             drawPlaces(json[i]);
+            console.log(json[i].id);
         }
 
         // for (var i in places) {
