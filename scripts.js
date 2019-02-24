@@ -30,7 +30,7 @@ window.onload = function () {
     var places = $.getJSON("places.json", function (json) {
         console.log(json); // show the JSON file content into console
 
-        for (var i = 0; i < 8; i++) {
+        for (var i = 0; i < 3; i++) {
             drawPlaces(json[i]);
         }
 

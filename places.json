@@ -28,7 +28,7 @@
         "type": "city",
         "time": "day",
         "author": "JKo"
-    },
+    }
     {
         "id": "AtHomeFridayMorning2",
         "vol": 1,
@@ -38,7 +38,7 @@
         "type": "location",
         "time": "day",
         "author": "MRu"
-    },
+    }
     {
         "id": "NTUTClassroom",
         "vol": 1,
@@ -48,7 +48,7 @@
         "type": "location",
         "time": "day",
         "author": "MRu"
-    },
+    }
     {
         "id": "MRTWaitingForTrain_IMG_2910",
         "vol": 1,
@@ -68,7 +68,7 @@
         "type": "city",
         "time": "day",
         "author": "MRu"
-    },
+    }
     {
         "id": "IjyshengGongguanStore_IMG_2906",
         "vol": 1,
