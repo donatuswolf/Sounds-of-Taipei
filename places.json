@@ -132,12 +132,12 @@
     },
     {
         "id": "mainStationEntranceMRT",
-        "label": "entering MRT at main station",
+        "label": "People entering MRT at main station",
         "googlemaps": "https://goo.gl/maps/tNvQgP2TnMJ2",
         "vol": 1,
         "db": 0.4,
-        "x": 25.047787,
-        "y": 121.516962,
+        "x": 25.048259,
+        "y": 121.518682,
         "type": "city",
         "time": "day",
         "author": "DWo"
