@@ -25,11 +25,11 @@
     {
         "id": "NTUTClassroom",
         "label": "NTUT Studio Classroom",
-        "googlemaps": "https://goo.gl/maps/AwVPaS21UrN2",
+        "googlemaps": "https://goo.gl/maps/ce5vRN6fe862",
         "vol": 1,
         "db": 0.2,
-        "x": 25.042637,
-        "y": 121.533285,
+        "x": 25.042154,
+        "y": 121.538167,
         "type": "location",
         "time": "day",
         "author": "MRu"
