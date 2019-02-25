@@ -48,6 +48,7 @@ window.onload = function () {
                 $('#photo').css('background-image', 'url(assets/photos/' + data.id + '.png)'); // load photo
                 $('#label').html(data.label); // add text
                 $('#photo').removeClass('hidden'); // show photo
+                $('#photobg').removeClass('hidden');
             });
 
             //// doubleclick ////////
@@ -70,6 +71,7 @@ window.onload = function () {
                     audio.pause();
                     circle.setRadius(radiusMin)
                     $('#photo').addClass('hidden'); // hide photo
+                    $('#photobg').addClass('hidden');
                 });
             }
         }
