@@ -12,8 +12,6 @@ window.onload = function () {
 
     L.tileLayer('https://api.mapbox.com/styles/v1/donatuswolf/cjshijl1c13o41empmevvh85j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG9uYXR1c3dvbGYiLCJhIjoiY2pzaGdrcGMzMG40aDQzbjVudTJhZzZ6ZyJ9.McGYoRXAEFRlb9lG8CMXmg').addTo(mymap);
 
-    $('#photo').addClass('hidden');
-
     var places = $.getJSON("places.json", function (json) {
         console.log(json); // show the JSON file content into console
         console.log(json.length);
