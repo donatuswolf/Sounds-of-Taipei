@@ -429,5 +429,77 @@
         "type": "event",
         "time": "night",
         "author": "PSc"
+    },
+    {
+        "id": "BirdsInTheMornig",
+        "label": "the sounds of birds in the mornig",
+        "googlemaps": "https://reurl.cc/65YVO",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.0123140,
+        "y": 121.464580,
+        "type": "location",
+        "time": "day",
+        "author": "KHL"
+    },
+    {
+        "id": "BusStop",
+        "label": "the sounds of bus pulling over",
+        "googlemaps": "https://reurl.cc/GALVA",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.021867,
+        "y": 121.466003,
+        "type": "location",
+        "time": "day",
+        "author": "KHL"
+    },
+    {
+        "id": "ConstructionSite",
+        "label": "the sounds of construction site in school",
+        "googlemaps": "https://reurl.cc/lD4Vj",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.043637,
+        "y": 121.534349,
+        "type": "location",
+        "time": "day",
+        "author": "KHL"
+    },
+    {
+        "id": "PostOffice",
+        "label": "the sounds in post office",
+        "googlemaps": "https://reurl.cc/WGML7",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.022054,
+        "y": 121.467366,
+        "type": "location",
+        "time": "day",
+        "author": "KHL"
+    },
+    {
+        "id": "TrafficSoundsAtNight",
+        "label": "the traffic sounds at night",
+        "googlemaps": "https://reurl.cc/ZWqQQ",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.022929,
+        "y": 121.464191,
+        "type": "location",
+        "time": "night",
+        "author": "KHL"
+    },
+    {
+        "id": "TranditionalMarket",
+        "label": "tranditional market in Xinpu",
+        "googlemaps": "https://reurl.cc/ZWqQQ",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.023752,
+        "y": 121.465758,
+        "type": "location",
+        "time": "night",
+        "author": "KHL"
     }
 ]
