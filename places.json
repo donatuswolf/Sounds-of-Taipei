@@ -345,5 +345,89 @@
         "type": "city",
         "time": "day",
         "author": "JKo"
+    },
+    {
+        "id": "fuxingMRT",
+        "label": "MRT arriving in Fuxing Station",
+        "googlemaps": "",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.051833,
+        "y": 121.543622,
+        "type": "city",
+        "time": "day",
+        "author": "PSc"
+    },
+    {
+        "id": "bbq",
+        "label": "Delicious BBQ and Hotpot",
+        "googlemaps": "",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.067508,
+        "y": 121.496384,
+        "type": "location",
+        "time": "day",
+        "author": "PSc"
+    },
+    {
+        "id": "sizzle",
+        "label": "Hotplate Dinner at Tapei 101 Foodcourt",
+        "googlemaps": "",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.033545,
+        "y": 121.564034,
+        "type": "location",
+        "time": "day",
+        "author": "PSc"
+    },
+    {
+        "id": "deepFry",
+        "label": "Fried Spring Onion Snack at the Foodstreet",
+        "googlemaps": "",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.043658,
+        "y": 121.532319,
+        "type": "location",
+        "time": "day",
+        "author": "PSc"
+    },
+    {
+        "id": "busRattle",
+        "label": "Noisy busride",
+        "googlemaps": "",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.052110,
+        "y": 121.546273,
+        "type": "city",
+        "time": "day",
+        "author": "PSc"
+    },
+    {
+        "id": "campus711",
+        "label": "7/11 Store on Campus",
+        "googlemaps": "https://goo.gl/maps/3t6LbDMwVkE2",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.043012,
+        "y": 121.534005,
+        "type": "city",
+        "time": "day",
+        "author": "PSc"
+    },
+    {
+        "id": "twinkleGate",
+        "label": "North Gate Projection at Twinkle Taipei Twinkle",
+        "googlemaps": "https://goo.gl/maps/3t6LbDMwVkE2",
+        "vol": 1,
+        "db": 0.4,
+        "x": 25.047772,
+        "y": 121.511234,
+        "type": "event",
+        "time": "night",
+        "author": "PSc"
     }
 ]
