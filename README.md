@@ -5,21 +5,22 @@ International Program for Interaction Design and Innovation
 Special Topics on Interactive Media Design (II)
 
 Projcet by:  
-[Johanna Komesker](https://www.behance.net/johannakomesker)  
-[Mona Ruppert](https://www.behance.net/Monarupperf19f)  
-[Patrick Schneider](https://www.linkedin.com/in/padschneider)  
-[Donatus Wolf](https://donatuswolf.de)
+<a href="https://www.behance.net/johannakomesker" target="_blank">Johanna Komesker</a>  
+<a href="https://www.behance.net/Monarupperf19f" target="_blank">Mona Ruppert</a>  
+<a href="https://www.linkedin.com/in/padschneider" target="_blank">Patrick Schneider</a>  
+<a href="https://donatuswolf.de" target="_blank">Donatus Wolf</a>  
 
 1st week assignment  
 February 19th – 26th 2019
 
 [![preview screenshot](/assets/preview.png)](https://donatuswolf.com/sounds-of-taipei)
-Go to website [donatuswolf.com/sounds-of-taipei](https://donatuswolf.com/sounds-of-taipei)
+Go to website <a href="https://donatuswolf.com/sounds-of-taipei" target="_blank">donatuswolf.com/sounds-of-taipei</a> 
 
 Libraries used
 -
-* [leaflet.js v1.4](https://leafletjs.com)
-* [jquery.js v3.2.1](https://jquery.com)
+
+* <a href="https://leafletjs.com" target="_blank">leaflet.js v1.4</a>
+* <a href="https://jquery.com" target="_blank">jquery.js v3.2.1</a>
 
 
 
