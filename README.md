@@ -1,16 +1,39 @@
 # Sounds of Taipei
 
-NTUT · National Taipei University of Technology  </br>
-Special Topics on Interactive Media Design (II) </br>
-City soundscape
+NTUT · National Taipei University of Technology  
+International Program for Interaction Design and Innovation  
+Special Topics on Interactive Media Design (II)
 
-1st week assignment </br>
-Febraury 19th – 26th 2019
+Projcet by:  
+<a href="https://www.behance.net/johannakomesker" target="_blank">Johanna Komesker</a>  
+<a href="https://www.behance.net/Monarupperf19f" target="_blank">Mona Ruppert</a>  
+<a href="https://www.linkedin.com/in/padschneider" target="_blank">Patrick Schneider</a>  
+<a href="https://donatuswolf.de" target="_blank">Donatus Wolf</a>  
 
-##Database structure `places.json`
+1st week assignment  
+February 19th – 26th 2019
 
-`id`:exact name of the sound file </br>
-sound file needs to be at *./assets/sounds*
+[![preview screenshot](/assets/preview.png)](https://github.com/donatuswolf/Sounds-of-Taipei)  
+ <a href="https://github.com/donatuswolf/Sounds-of-Taipei" target="_blank">Go to website</a> 
+
+Libraries used
+-
+
+* <a href="https://leafletjs.com" target="_blank">leaflet.js v1.4</a>
+* <a href="https://jquery.com" target="_blank">jquery.js v3.2.1</a>
+
+
+
+Database structure `places.json`
+-
+
+`id`:exact name of the sound and photo file </br>
+sound file needs to be at *./assets/sounds*  
+photo file needs to be at *./assets/photos* in png (exact size tba)  
+
+`label`: the description of the audio which will be displayed on the photo
+
+`googlemaps`: the shortlink to the location on google maps, which opens when doubleclicking a dot
 
 `vol`:  how lound the song should be played on a scale from 0 (no sound) to 1 (maximum)
 
