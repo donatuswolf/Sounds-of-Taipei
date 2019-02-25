@@ -13,8 +13,8 @@ Projcet by:
 1st week assignment  
 February 19th – 26th 2019
 
-[![preview screenshot](/assets/preview.png)](https://github.com/donatuswolf/Sounds-of-Taipei)  
- <a href="https://github.com/donatuswolf/Sounds-of-Taipei" target="_blank">Go to website</a> 
+[![preview screenshot](/assets/preview.png)](https://donatuswolf.github.io/Sounds-of-Taipei/)  
+ <a href="https://donatuswolf.github.io/Sounds-of-Taipei/" target="_blank">Go to website</a> 
 
 Libraries used
 -
