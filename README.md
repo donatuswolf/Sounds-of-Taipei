@@ -1,13 +1,30 @@
 # Sounds of Taipei
 
-NTUT · National Taipei University of Technology  </br>
-Special Topics on Interactive Media Design (II) </br>
-City soundscape
+NTUT · National Taipei University of Technology  
+International Program for Interaction Design and Innovation  
+Special Topics on Interactive Media Design (II)
 
-1st week assignment </br>
-Febraury 19th – 26th 2019
+Projcet by:  
+[Johanna Komesker](https://www.behance.net/johannakomesker)  
+[Mona Ruppert](https://www.behance.net/Monarupperf19f)  
+[Patrick Schneider](https://www.linkedin.com/in/padschneider)  
+[Donatus Wolf](https://donatuswolf.de)
 
-##Database structure `places.json`
+1st week assignment  
+February 19th – 26th 2019
+
+[![preview screenshot](/assets/preview.png)](https://donatuswolf.com/sounds-of-taipei)
+Go to website [donatuswolf.com/sounds-of-taipei](https://donatuswolf.com/sounds-of-taipei)
+
+Libraries used
+-
+* [leaflet.js v1.4](https://leafletjs.com)
+* [jquery.js v3.2.1](https://jquery.com)
+
+
+
+Database structure `places.json`
+-
 
 `id`:exact name of the sound file </br>
 sound file needs to be at *./assets/sounds*
