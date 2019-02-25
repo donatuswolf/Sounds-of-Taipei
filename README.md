@@ -27,9 +27,9 @@ Libraries used
 Database structure `places.json`
 -
 
-`id`:exact name of the sound and photo file </br>
+`id`: exact name of the sound and photo file – name in camelCase   
 sound file needs to be at *./assets/sounds*  
-photo file needs to be at *./assets/photos* in png (exact size tba)  
+photo file needs to be at *./assets/photos* in *jpg (600 x 400px)
 
 `label`: the description of the audio which will be displayed on the photo
 
@@ -37,21 +37,21 @@ photo file needs to be at *./assets/photos* in png (exact size tba)
 
 `vol`:  how lound the song should be played on a scale from 0 (no sound) to 1 (maximum)
 
-`db`:   how loud the song is on a scale from 0 to 1  </br>
+`db`:   how loud the song is on a scale from 0 to 1   
         that creates the size of the circle when hovered
 
 `x`:   Latitude coordinate 
 
 `y`:   Longitude coordinate
 
-`type`: there are three types right now: </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `location`: a location specific sound like the bird street </br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `city`: a sound, that is specific for taipei, but not for a specific location, like the *peep* at the MRT entrance </br>
+`type`: there are three types right now:  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `location`: a location specific sound like the bird street  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `city`: a sound, that is specific for taipei, but not for a specific location, like the *peep* at the MRT entrance  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `event`: a sound that is only there at an specific event, like the lantern festival
 
 `time`: was the sound recorded by `day`or by `night`?
 
-`author`: Who recorded the sound  </br>
-first letter from the frist name, first and second from the last name  </br>
+`author`: Who recorded the sound   
+first letter from the frist name, first and second from the last name   
 Ex: **D**oantus **Wo**lf = `DWo`
 
