@@ -13,8 +13,8 @@ Projcet by:
 1st week assignment  
 February 19th – 26th 2019
 
-[![preview screenshot](/assets/preview.png)](https://donatuswolf.com/sounds-of-taipei)
-Go to website <a href="https://donatuswolf.com/sounds-of-taipei" target="_blank">donatuswolf.com/sounds-of-taipei</a> 
+[![preview screenshot](/assets/preview.png)](https://github.com/donatuswolf/Sounds-of-Taipei)  
+ <a href="https://github.com/donatuswolf/Sounds-of-Taipei" target="_blank">Go to website</a> 
 
 Libraries used
 -
@@ -27,8 +27,13 @@ Libraries used
 Database structure `places.json`
 -
 
-`id`:exact name of the sound file </br>
-sound file needs to be at *./assets/sounds*
+`id`:exact name of the sound and photo file </br>
+sound file needs to be at *./assets/sounds*  
+photo file needs to be at *./assets/photos* in png (exact size tba)  
+
+`label`: the description of the audio which will be displayed on the photo
+
+`googlemaps`: the shortlink to the location on google maps, which opens when doubleclicking a dot
 
 `vol`:  how lound the song should be played on a scale from 0 (no sound) to 1 (maximum)
 
