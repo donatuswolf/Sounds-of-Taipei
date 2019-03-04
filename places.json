@@ -501,5 +501,41 @@
         "type": "location",
         "time": "night",
         "author": "KHL"
+    },
+    {
+        "id": "DaanparkPlayground",
+        "label": "Playground at the Daan Forest Park",
+        "googlemaps": "https://goo.gl/maps/Jtkhby8meR32",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.032735,
+        "y": 121.536213,
+        "type": "location",
+        "time": "day",
+        "author": "DWo"
+    },
+    {
+        "id": "RiverBirds",
+        "label": "Birds at the Guting Riverside Park",
+        "googlemaps": "https://goo.gl/maps/avvRZSMb84y",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.020468,
+        "y": 121.519917,
+        "type": "location",
+        "time": "night",
+        "author": "DWo"
+    },
+    {
+        "id": "TableTennisBridge",
+        "label": "Table Tennis under the Yongfu Bridge",
+        "googlemaps": "https://goo.gl/maps/QAUen4uX6yw",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.009141,
+        "y": 121.525590,
+        "type": "location",
+        "time": "day",
+        "author": "DWo"
     }
 ]
