@@ -2,7 +2,6 @@
 
 An interactive map of Taipei that let's you explore the city through its unique sounds.
 
--
 
 NTUT · National Taipei University of Technology  
 International Program for Interaction Design and Innovation  
