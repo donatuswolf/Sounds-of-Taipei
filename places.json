@@ -537,5 +537,53 @@
         "type": "location",
         "time": "day",
         "author": "DWo"
+    },
+    {
+        "id": "shilinBusstation",
+        "label": "Traffic during a rainy night",
+        "googlemaps": "https://goo.gl/maps/cuB6iTYGkG52",
+        "vol": 1,
+        "db": 0.8,
+        "x": 25.090666,
+        "y": 121.526966,
+        "type": "city",
+        "time": "night",
+        "author": "JKo"
+    },
+    {
+        "id": "operaCKS",
+        "label": "Opera performed at Chiang Kai Shek Memorial",
+        "googlemaps": "https://goo.gl/maps/Zy9bdrKrDpk",
+        "vol": 0.6,
+        "db": 0.8,
+        "x": 25.035534,
+        "y": 121.522267,
+        "type": "event",
+        "time": "day",
+        "author": "JKo"
+    },
+    {
+        "id": "NTUNature",
+        "label": "Wind and birds chirping on NTU Campus",
+        "googlemaps": "https://goo.gl/maps/AKkDjyd4mv62",
+        "vol": 0.8,
+        "db": 0.3,
+        "x": 25.016051,
+        "y": 121.539459,
+        "type": "city",
+        "time": "day",
+        "author": "JKo"
+    },
+    {
+        "id": "NightmarketGambling",
+        "label": "Sounds of gaming machines at a night market",
+        "googlemaps": "https://goo.gl/maps/ZPaZqUFUqZR2",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.038431,
+        "y": 121.498589,
+        "type": "city",
+        "time": "night",
+        "author": "JKo"
     }
 ]
