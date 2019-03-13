@@ -56,5 +56,5 @@ photo file needs to be at *./assets/photos* in *jpg (600 x 400px)
 
 `author`: Who recorded the sound   
 first letter from the frist name, first and second from the last name   
-Ex: **D**oantus **Wo**lf = `DWo`
+Ex: **D**onatus **Wo**lf = `DWo`
 
