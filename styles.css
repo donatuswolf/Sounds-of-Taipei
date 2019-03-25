@@ -25,6 +25,8 @@ body {
     background: #FFFFFF;
     border-radius: 0 10px 10px 0;
     box-shadow: 4px 0 8px 0 rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
     /* animation-name: sidebarMove;
     animation-duration: 1s; */
 }
@@ -33,21 +35,35 @@ body {
     justify-content: flex-start;
 }
 
-.middle {
-    justify-content: center
+.center {
+    justify-content: center;
 }
 
 .bottom {
     justify-content: flex-end;
 }
 
+.more {
+    height: 64px;
+    color: rgb(101, 104, 121);
+    border-radius: 100%;
+    line-height: 36px;
+    font-size: 40px;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    display: none;
+}
+
+.more:hover, .add:hover{
+    cursor: pointer;
+}
 
 .logo {
     background: url(assets/logo.svg);
     background-position: center center;
     background-repeat: no-repeat;
     height: 90px;
-    /* width: 100%; */
+    justify-content: center;
 }
 
 .howto {
@@ -119,7 +135,7 @@ body {
 #photo, #photobg {
     background-color: #e5e8ef;
     position: absolute;
-    z-index: 3;
+    z-index: 4;
     top: 20px;
     right: 20px;
     height: 200px;
@@ -134,7 +150,7 @@ body {
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.45);
     overflow: hidden;
-    z-index: 4;
+    z-index: 5;
 }
 
 #photo.hidden, #photobg.hidden {
@@ -171,7 +187,85 @@ body {
     right: 0;
 }
 
+.addsound {
+    width: 64px;
+    height: 64px;
+    text-align: center;
+    background-color:#e94666;
+    color: white;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 6;
+    line-height: 62px;
+    font-size: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
 /* @keyframes sidebarMove {
     0%   {left:-280px;}
     100% {left:0px;}
   } */
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        height: 416px;
+        /* 416 */
+        padding: 20px;
+        /* flex-direction: row; */
+        border-radius: 0 0 10px 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        /* animation-name: sidebarMove;
+        animation-duration: 1s; */
+    }
+
+    .top {
+        position: relative;
+    }
+
+    .logo {
+        height: 64px;
+        width: 120px;
+        background-position: left center;
+        float: left;
+    }
+
+    .more {
+        display: block;
+        float: right;
+    }
+
+    .howto{
+        margin: 24px 0;
+        max-width: 430px;
+    }
+
+    .legend {
+        margin-bottom: 32px;
+    }
+
+    .credits {
+        margin: 0;
+    }
+
+    .center, .bottom {
+        /* display: none; */
+        /* visibility: hidden; */
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+    }
+
+    #photo, #photobg {
+        top: auto;
+        right: auto;
+        bottom: 0;
+        left: 0;
+        height: 240px;
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+    
+}
