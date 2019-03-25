@@ -135,7 +135,7 @@ body {
 #photo, #photobg {
     background-color: #e5e8ef;
     position: absolute;
-    z-index: 3;
+    z-index: 4;
     top: 20px;
     right: 20px;
     height: 200px;
@@ -150,7 +150,7 @@ body {
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.45);
     overflow: hidden;
-    z-index: 4;
+    z-index: 5;
 }
 
 #photo.hidden, #photobg.hidden {
@@ -197,7 +197,7 @@ body {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    z-index: 4;
+    z-index: 6;
     line-height: 62px;
     font-size: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -240,6 +240,7 @@ body {
 
     .howto{
         margin: 24px 0;
+        max-width: 430px;
     }
 
     .legend {
@@ -260,10 +261,11 @@ body {
     #photo, #photobg {
         top: auto;
         right: auto;
-        bottom: 20px;
-        left: 20px;
-        height: 100px;
-        width: 150px;
+        bottom: 0;
+        left: 0;
+        height: 240px;
+        width: 100%;
+        border-radius: 8px 8px 0 0;
     }
     
 }
