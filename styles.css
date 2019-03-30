@@ -126,6 +126,7 @@ body {
     color: #636876;
     margin-bottom: -16px;
     text-decoration: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .credits a:hover {
@@ -193,6 +194,7 @@ body {
     text-align: center;
     background-color:#e94666;
     color: white;
+    text-decoration: none;
     border-radius: 100%;
     position: absolute;
     bottom: 20px;
@@ -201,8 +203,14 @@ body {
     line-height: 62px;
     font-size: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    display: none;
+    transition: all 0.3s ease-in-out;
 }
+
+.addsound:hover {
+    background-color: #f34f70;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
 
 
 /* @keyframes sidebarMove {
