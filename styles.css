@@ -45,6 +45,7 @@ body {
 
 .more {
     height: 64px;
+    width: 40px;
     color: rgb(101, 104, 121);
     border-radius: 100%;
     line-height: 36px;
@@ -52,6 +53,21 @@ body {
     justify-content: flex-end;
     box-sizing: border-box;
     display: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.more::before {
+    border-style: solid;
+    border-width: 4px 4px 0 0;
+    content: '';
+    display: inline-block;
+    transform: rotate(-45deg);
+    height: 12px;
+    left: 30%;
+    position: relative;
+    top: 28px;
+    vertical-align: top;
+    width: 12px;
 }
 
 .more:hover, .add:hover{
