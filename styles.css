@@ -159,6 +159,7 @@ body {
     width: 300px;
     border-radius: 10px;
     opacity: 1;
+    pointer-events: none;
 }
 
 #photo {
