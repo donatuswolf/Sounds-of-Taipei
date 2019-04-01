@@ -13,11 +13,8 @@ Project by:
 <a href="https://www.linkedin.com/in/padschneider" target="_blank">Patrick Schneider</a>  
 <a href="https://donatuswolf.de" target="_blank">Donatus Wolf</a>  
 
-1st week assignment  
-February 19th – 26th 2019
-
-[![preview screenshot](/assets/preview.png)](https://donatuswolf.github.io/Sounds-of-Taipei/)  
- <a href="https://donatuswolf.github.io/Sounds-of-Taipei/" target="_blank">Go to website</a> 
+[![preview screenshot](/assets/preview.png)](https://fh-potsdam.github.io/Sounds-of-Taipei)  
+ <a href="https://fh-potsdam.github.io/Sounds-of-Taipei" target="_blank">Go to website</a> 
 
 Libraries used
 -
@@ -25,6 +22,11 @@ Libraries used
 * <a href="https://leafletjs.com" target="_blank">leaflet.js v1.4</a>
 * <a href="https://jquery.com" target="_blank">jquery.js v3.2.1</a>
 
+
+Contribute your sound
+-
+
+<a href="https://forms.gle/CxhxLbpsrDeddRCq5" target="_blank">Upload form</a>
 
 
 Database structure `places.json`
