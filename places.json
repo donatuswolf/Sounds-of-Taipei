@@ -585,5 +585,17 @@
         "type": "city",
         "time": "night",
         "author": "JKo"
+    },
+    {
+        "id": "forestCricket",
+        "label": "Forest cricket looking for a partner",
+        "googlemaps": "https://goo.gl/maps/U4T8ucNTcmBYHaRVA",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.025328,
+        "y": 121.581931,
+        "type": "location",
+        "time": "day",
+        "author": "Yaron Zimmermann"
     }
 ]
