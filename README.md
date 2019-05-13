@@ -13,13 +13,14 @@ Project by:
 <a href="https://www.linkedin.com/in/padschneider" target="_blank">Patrick Schneider</a>  
 <a href="https://donatuswolf.de" target="_blank">Donatus Wolf</a>  
 
-[![preview screenshot](/assets/preview.png)](https://fh-potsdam.github.io/Sounds-of-Taipei)  
- <a href="https://fh-potsdam.github.io/Sounds-of-Taipei" target="_blank">Go to website</a> 
+[![preview screenshot](/assets/preview.png)](https://github.com/FH-Potsdam/Sounds-of-Taipei)  
+ <a href="https://github.com/FH-Potsdam/Sounds-of-Taipei" target="_blank">Go to website</a> 
 
 Libraries used
 -
 
 * <a href="https://leafletjs.com" target="_blank">leaflet.js v1.4</a>
+* <a href="https://www.mapbox.com/mapbox-studio/" target="_blank">Mapbox Studio</a>
 * <a href="https://jquery.com" target="_blank">jquery.js v3.2.1</a>
 
 

@@ -9,6 +9,8 @@ window.onload = function () {
         event: '#ae65d5'
     }
 
+    var timeState = "day";
+
     //// load map ////////
 
     var lat = 25.032;
@@ -22,14 +24,15 @@ window.onload = function () {
 
     var places = $.getJSON("places.json", function (json) {
         console.log(json); // show the JSON file content into console
-        console.log(json.length);
         for (var i = 0; i < json.length; i++) {
-            drawPlaces(json[i]);
+            if (json[i].time === timeState) {                   // filter day/night
+                drawPlace(json[i]);                             // load one circle
+            }
         }
 
         //// create circles ////////
 
-        function drawPlaces(data) {
+        function drawPlace(data) {
             var circle = L.circleMarker([data.x, data.y], {
                 // color: data.type,
                 color: color[data.type], // color cirlces with type-colors
