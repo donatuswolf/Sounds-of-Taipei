@@ -9,7 +9,64 @@ window.onload = function () {
         event: '#ae65d5'
     }
 
-    var timeState = "day";
+    //// day/night theme ////////
+
+    var timeState = urlParam('time');
+    
+    if (timeState == null) {
+        timeState = 'day';
+    };
+
+
+    function urlParam(name) {
+        var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
+        if (results == null) {
+            return null;
+        } else {
+            return decodeURI(results[1]) || 0;
+        }
+    }
+
+    var timeTheme = {
+        day: {
+            mapUrl: 'https://api.mapbox.com/styles/v1/donatuswolf/cjshijl1c13o41empmevvh85j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG9uYXR1c3dvbGYiLCJhIjoiY2pzaGdrcGMzMG40aDQzbjVudTJhZzZ6ZyJ9.McGYoRXAEFRlb9lG8CMXmg',
+            sidebarColor: '#FFFFFF',
+            fontColor: '#646978',
+        },
+        night: {
+            mapUrl: 'https://api.mapbox.com/styles/v1/donatuswolf/cjv3g470s4nlp1fodbaepvqlp/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG9uYXR1c3dvbGYiLCJhIjoiY2pzaGdrcGMzMG40aDQzbjVudTJhZzZ6ZyJ9.McGYoRXAEFRlb9lG8CMXmg',
+            sidebarColor: '#19191A',
+            fontColor: '#FFFFFF',
+        }
+
+    }
+
+    function toggleTheme() {
+        var otherState
+        if (timeState === 'day') {
+            otherState = 'night'
+        } else {
+            otherState = 'day'
+        };
+        
+        $('.sidebar').css('background', timeTheme[timeState].sidebarColor);
+        $('.howto').css('color', timeTheme[timeState].fontColor);
+        $('.legend li').css('color', timeTheme[timeState].fontColor);
+        $('.legend li h3').css('color', timeTheme[timeState].fontColor);
+        $('.credits a').css('color', timeTheme[timeState].fontColor);
+        $('.more').css('color', timeTheme[timeState].fontColor);
+        $('#toggleTime').css('color', timeTheme[timeState].fontColor);
+        
+
+        $('.logo').css('background', 'url(assets/logo-' + [timeState] + '.svg');
+        $('.logo').css('background-repeat', 'no-repeat');
+        $('.logo').css('background-position', 'center center');
+
+        $('#toggleTime').attr('href', '?time=' + [otherState]);
+        $('#toggleTime').html('toggle ' + [otherState] + ' mode');
+    }
+
+    toggleTheme();
 
     //// load map ////////
 
@@ -18,12 +75,12 @@ window.onload = function () {
     var zoom = 13;
 
     var mymap = L.map('mapid').setView([lat, lng], zoom);
-    L.tileLayer('https://api.mapbox.com/styles/v1/donatuswolf/cjshijl1c13o41empmevvh85j/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiZG9uYXR1c3dvbGYiLCJhIjoiY2pzaGdrcGMzMG40aDQzbjVudTJhZzZ6ZyJ9.McGYoRXAEFRlb9lG8CMXmg').addTo(mymap);
+    L.tileLayer(timeTheme[timeState].mapUrl).addTo(mymap);
 
     //// load dataset from json ////////
 
-    var places = $.getJSON("places.json", function (json) {
-        console.log(json); // show the JSON file content into console
+    var places = $.getJSON('places.json', function (json) {
+        // console.log(json); // show the JSON file content into console
         for (var i = 0; i < json.length; i++) {
             if (json[i].time === timeState) {                   // filter day/night
                 drawPlace(json[i]);                             // load one circle

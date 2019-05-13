@@ -75,7 +75,7 @@ body {
 }
 
 .logo {
-    background: url(assets/logo.svg);
+    background: url(assets/logo-day.svg);
     background-position: center center;
     background-repeat: no-repeat;
     height: 90px;
@@ -163,7 +163,6 @@ body {
 }
 
 #photo {
-    background: url(assets/photos/sample.png);
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.45);
