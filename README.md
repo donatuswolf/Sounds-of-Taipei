@@ -13,8 +13,8 @@ Project by:
 <a href="https://www.linkedin.com/in/padschneider" target="_blank">Patrick Schneider</a>  
 <a href="https://donatuswolf.de" target="_blank">Donatus Wolf</a>  
 
-[![preview screenshot](/assets/preview.png)](https://github.com/FH-Potsdam/Sounds-of-Taipei)  
- <a href="https://github.com/FH-Potsdam/Sounds-of-Taipei" target="_blank">Go to website</a> 
+[![preview screenshot](/assets/preview.png)](https://fh-potsdam.github.io/Sounds-of-Taipei/)  
+ <a href="https://fh-potsdam.github.io/Sounds-of-Taipei/" target="_blank">Go to website</a> 
 
 Libraries used
 -
