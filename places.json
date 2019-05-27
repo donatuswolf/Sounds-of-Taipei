@@ -597,5 +597,78 @@
         "type": "location",
         "time": "day",
         "author": "Yaron Zimmermann"
+    },
+    {
+        "id": "wateringPlants",
+        "label": "Plants Watering",
+        "googlemaps": "https://goo.gl/maps/41avKRK1w6zfmxNF6",
+        "vol": 1,
+        "db": 0.2,
+        "x": 24.990889,
+        "y": 121.500778,
+        "type": "general",
+        "time": "day",
+        "author": "Vincent Lechevallier"
+    },
+    {
+        "id": "breakfastPlace",
+        "label": "Breakfast Place",
+        "googlemaps": "https://goo.gl/maps/njSUoSmKD2Cvi28A9",
+        "vol": 1,
+        "db": 0.5,
+        "x": 24.990328,
+        "y": 121.501947,
+        "type": "general",
+        "time": "day",
+        "author": "Vincent Lechevallier"
+    },
+    {
+        "id": "fishShop",
+        "label": "Fish Shop",
+        "googlemaps": "https://goo.gl/maps/XRByu4DF6EVQjnnX8",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.036985,
+        "y": 121.533163,
+        "type": "location",
+        "time": "day",
+        "author": "Vincent Lechevallier"
+    },
+    {
+        "id": "guitarShop",
+        "label": "Guitar Shop",
+        "googlemaps": "https://goo.gl/maps/oNoPThZSPEyXeTdHA",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.039695,
+        "y": 121.529023,
+        "type": "location",
+        "time": "day",
+        "author": "Vincent Lechevallier"
+    },
+    {
+        "id": "trollySidewalk",
+        "label": "Trolley on the Sidewalk",
+        "googlemaps": "https://goo.gl/maps/szwAMt87cB6K6R6n8",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.040717,
+        "y": 121.529302,
+        "type": "general",
+        "time": "day",
+        "author": "Vincent Lechevallier"
+    },
+    {
+        "id": "NTUTConstructionCrane",
+        "label": "Construction Crane at NTUT",
+        "googlemaps": "https://goo.gl/maps/szwAMt87cB6K6R6n8",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.040717,
+        "y": 121.529302,
+        "type": "general",
+        "time": "day",
+        "author": "Vincent Lechevallier"
     }
+
 ]
