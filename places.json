@@ -42,7 +42,7 @@
         "db": 0.6,
         "x": 25.021892,
         "y": 121.527356,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "MRu"
     },
@@ -54,7 +54,7 @@
         "db": 0.5,
         "x": 24.998084,
         "y": 121.579582,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "MRu"
     },
@@ -102,7 +102,7 @@
         "db": 0.4,
         "x": 25.033343,
         "y": 121.499936,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "DWo"
     },
@@ -114,7 +114,7 @@
         "db": 0.4,
         "x": 25.027174,
         "y": 121.522208,
-        "type": "city",
+        "type": "general",
         "time": "night",
         "author": "DWo"
     },
@@ -138,7 +138,7 @@
         "db": 0.4,
         "x": 25.048259,
         "y": 121.518682,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "DWo"
     },
@@ -150,7 +150,7 @@
         "db": 0.3,
         "x": 25.050843,
         "y": 121.533030,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "DWo"
     },
@@ -162,7 +162,7 @@
         "db": 0.6,
         "x": 25.023106,
         "y": 121.516742,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "DWo"
     },
@@ -258,7 +258,7 @@
         "db": 0.4,
         "x": 24.98299,
         "y": 121.583298,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "JKo"
     },
@@ -270,7 +270,7 @@
         "db": 0.7,
         "x": 25.022092,
         "y": 121.554945,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "JKo"
     },
@@ -282,7 +282,7 @@
         "db": 0.9,
         "x": 25.070711,
         "y": 121.496751,
-        "type": "city",
+        "type": "general",
         "time": "",
         "author": "JKo"
     },
@@ -294,7 +294,7 @@
         "db": 0.8,
         "x": 25.026938,
         "y": 121.522100,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "JKo"
     },
@@ -306,7 +306,7 @@
         "db": 1,
         "x": 25.051466,
         "y": 121.522473,
-        "type": "city",
+        "type": "general",
         "time": "night",
         "author": "JKo"
     },
@@ -318,7 +318,7 @@
         "db": 1,
         "x": 25.024681,
         "y": 121.520234,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "JKo"
     },
@@ -330,7 +330,7 @@
         "db": 0.7,
         "x": 25.026504,
         "y": 121.529091,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "JKo"
     },
@@ -342,7 +342,7 @@
         "db": 0.4,
         "x": 25.036732,
         "y": 121.553764,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "JKo"
     },
@@ -354,7 +354,7 @@
         "db": 0.4,
         "x": 25.051833,
         "y": 121.543622,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "PSc"
     },
@@ -402,7 +402,7 @@
         "db": 0.4,
         "x": 25.052110,
         "y": 121.546273,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "PSc"
     },
@@ -414,7 +414,7 @@
         "db": 0.4,
         "x": 25.043012,
         "y": 121.534005,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "PSc"
     },
@@ -546,7 +546,7 @@
         "db": 0.8,
         "x": 25.090666,
         "y": 121.526966,
-        "type": "city",
+        "type": "general",
         "time": "night",
         "author": "JKo"
     },
@@ -570,7 +570,7 @@
         "db": 0.3,
         "x": 25.016051,
         "y": 121.539459,
-        "type": "city",
+        "type": "general",
         "time": "day",
         "author": "JKo"
     },
@@ -582,7 +582,7 @@
         "db": 0.5,
         "x": 25.038431,
         "y": 121.498589,
-        "type": "city",
+        "type": "general",
         "time": "night",
         "author": "JKo"
     },
@@ -666,7 +666,7 @@
         "db": 0.5,
         "x": 25.040717,
         "y": 121.529302,
-        "type": "general",
+        "type": "event",
         "time": "day",
         "author": "Vincent Lechevallier"
     }
