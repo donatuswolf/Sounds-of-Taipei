@@ -146,7 +146,7 @@ body {
 .creditsright {
     float: right;
     margin-top: -4px;
-    background: url(assets/toggle-day.svg);
+    background-image: url(assets/toggle-day.svg);
     background-position: center center;
     background-repeat: no-repeat;
     height: 24px;

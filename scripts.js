@@ -58,13 +58,13 @@ window.onload = function () {
         $('#toggleTime').css('color', timeTheme[timeState].fontColor);
         
 
-        $('.logo').css('background', 'url(assets/logo-' + [timeState] + '.svg');
+        $('.logo').css('background-image', 'url(assets/logo-' + [timeState] + '.svg');
         $('.logo').css('background-repeat', 'no-repeat');
         $('.logo').css('background-position', 'center center');
 
-        $('#toggleTime').css('background', 'url(assets/toggle-' + [timeState] + '.svg');
-        $('#toggleTime').css('background-repeat', 'no-repeat');
-        $('#toggleTime').css('background-position', 'center center');
+        $('.creditsright').css('background-image', 'url(assets/toggle-' + [timeState] + '.svg');
+        $('.creditsright').css('background-repeat', 'no-repeat');
+        $('.creditsright').css('background-position', 'center center');
 
         $('#toggleTime').attr('href', '?time=' + [otherState]);
     }
