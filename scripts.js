@@ -62,8 +62,11 @@ window.onload = function () {
         $('.logo').css('background-repeat', 'no-repeat');
         $('.logo').css('background-position', 'center center');
 
+        $('#toggleTime').css('background', 'url(assets/toggle-' + [timeState] + '.svg');
+        $('#toggleTime').css('background-repeat', 'no-repeat');
+        $('#toggleTime').css('background-position', 'center center');
+
         $('#toggleTime').attr('href', '?time=' + [otherState]);
-        $('#toggleTime').html('toggle ' + [otherState] + ' mode');
     }
 
     toggleTheme();

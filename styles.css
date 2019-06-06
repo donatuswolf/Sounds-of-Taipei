@@ -135,7 +135,26 @@ body {
     margin: 0;
 }
 
-.credits, .credits a {
+#toggleTime {
+    opacity: 0;
+}
+
+.creditsleft {
+    float: left;
+}
+
+.creditsright {
+    float: right;
+    margin-top: -4px;
+    background: url(assets/toggle-day.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 24px;
+    width: 48px;
+    justify-content: center;
+}
+
+.creditsleft, .creditsleft a {
     font-size: 14px;
     line-height: 16px;
     text-transform: none;
