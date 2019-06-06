@@ -7,6 +7,8 @@ NTUT · National Taipei University of Technology
 International Program for Interaction Design and Innovation  
 Special Topics on Interactive Media Design (II)
 
+For any questions about this project, feel free to <a href="mailto:sounds-of-taipei@donatuswolf.com">contact us</a>.
+
 Project by:  
 <a href="https://www.behance.net/johannakomesker" target="_blank">Johanna Komesker</a>  
 <a href="https://www.behance.net/Monarupperf19f" target="_blank">Mona Ruppert</a>  
