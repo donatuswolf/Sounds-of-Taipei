@@ -95,7 +95,7 @@ body {
 
 .legend li {
     list-style: none;
-    color: #636876;
+    color: #646978;
     padding-left: 24px;
 }
 
@@ -158,7 +158,7 @@ body {
     font-size: 14px;
     line-height: 16px;
     text-transform: none;
-    color: #636876;
+    color: #646978;
     margin-bottom: -16px;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
@@ -227,7 +227,7 @@ body {
     width: 64px;
     height: 64px;
     text-align: center;
-    background-color:#e94666;
+    background-color:#ec4667;
     color: white;
     text-decoration: none;
     border-radius: 100%;
@@ -242,7 +242,7 @@ body {
 }
 
 .addsound:hover {
-    background-color: #f34f70;
+    background-color: #ec4667;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
