@@ -669,6 +669,54 @@
         "type": "event",
         "time": "day",
         "author": "Vincent Lechevallier"
+    },
+    {
+        "id": "DaanParkBirds",
+        "label": "Birds in Daan Park",
+        "googlemaps": "",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.0306,
+        "y": 121.5365,
+        "type": "location",
+        "time": "day",
+        "author": "Patrick Schneider"
+    },
+    {
+        "id": "DaanparkMouthOrgan",
+        "label": "Man playing the mouth organ",
+        "googlemaps": "",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.0311,
+        "y": 121.5344,
+        "type": "event",
+        "time": "day",
+        "author": "Patrick Schneider"
+    },
+    {
+        "id": "MRTjingle",
+        "label": "Jingle and announcement in the MRT",
+        "googlemaps": "https://goo.gl/maps/mKjr7sB2ZJmmJ7zg8",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.051953,
+        "y": 121.542506,
+        "type": "general",
+        "time": "night",
+        "author": "Patrick Schneider"
+    },
+    {
+        "id": "SoccerGame",
+        "label": "Soccer game in a sports bar",
+        "googlemaps": "https://goo.gl/maps/jxtRixfqXjR7zpUKA",
+        "vol": 1,
+        "db": 0.5,
+        "x": 25.053656,
+        "y": 121.543845,
+        "type": "event",
+        "time": "night",
+        "author": "Patrick Schneider"
     }
 
 ]
