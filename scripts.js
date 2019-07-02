@@ -103,19 +103,6 @@ window.onload = function () {
 
             //// mouseover ////////
 
-            circle.on('mouseover', function () {
-                playSound(data.id, data.vol);
-                // this.setRadius(radiusMax)
-                this.setRadius(map(data.db, 0, 1, radiusMin, radiusMax)); // size of cirlces when hovered
-
-                $('#photo').css('background-image', 'url(assets/photos/' + data.id + '.jpg)'); // load photo
-                $('#label').html(data.label); // add text
-                $('#photo').removeClass('hidden'); // show photo
-                $('#photobg').removeClass('hidden');
-            });
-
-            //// mouseover ////////
-
             circle.on('onclick', function () {
                 playSound(data.id, data.vol);
                 // this.setRadius(radiusMax)
@@ -129,11 +116,11 @@ window.onload = function () {
 
             //// doubleclick ////////
 
-            circle.on('dblclick', function () {
-                if (data.googlemaps != '') {
-                    window.open(data.googlemaps, '_blank'); // create link
-                }
-            });
+            // circle.on('dblclick', function () {
+            //     if (data.googlemaps != '') {
+            //         window.open(data.googlemaps, '_blank'); // create link
+            //     }
+            // });
 
             function playSound(name, volume) {
                 var audio = new Audio('assets/sounds/' + name + '.mp3'); // load audio
