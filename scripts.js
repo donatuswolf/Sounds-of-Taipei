@@ -125,7 +125,7 @@ window.onload = function () {
                 $('#label').html(data.label); // add text
                 $('#photo').removeClass('hidden'); // show photo
                 $('#photobg').removeClass('hidden');
-            });
+            };
 
             //// doubleclick ////////
 
