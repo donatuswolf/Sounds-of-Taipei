@@ -103,16 +103,16 @@ window.onload = function () {
 
             //// mouseover ////////
 
-            circle.on('mouseover', function () {
-                playSound(data.id, data.vol);
-                // this.setRadius(radiusMax)
-                this.setRadius(map(data.db, 0, 1, radiusMin, radiusMax)); // size of cirlces when hovered
+            // circle.on('mouseover', function () {
+            //     playSound(data.id, data.vol);
+            //     // this.setRadius(radiusMax)
+            //     this.setRadius(map(data.db, 0, 1, radiusMin, radiusMax)); // size of cirlces when hovered
 
-                $('#photo').css('background-image', 'url(assets/photos/' + data.id + '.jpg)'); // load photo
-                $('#label').html(data.label); // add text
-                $('#photo').removeClass('hidden'); // show photo
-                $('#photobg').removeClass('hidden');
-            });
+            //     $('#photo').css('background-image', 'url(assets/photos/' + data.id + '.jpg)'); // load photo
+            //     $('#label').html(data.label); // add text
+            //     $('#photo').removeClass('hidden'); // show photo
+            //     $('#photobg').removeClass('hidden');
+            // });
 
             //// click ////////
 
