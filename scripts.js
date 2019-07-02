@@ -115,8 +115,7 @@ window.onload = function () {
             // });
 
             //// click ////////
-
-            circle.onclick = function () {
+            circle.on('click', function () {
                 playSound(data.id, data.vol);
                 // this.setRadius(radiusMax)
                 this.setRadius(map(data.db, 0, 1, radiusMin, radiusMax)); // size of cirlces when hovered
@@ -125,15 +124,15 @@ window.onload = function () {
                 $('#label').html(data.label); // add text
                 $('#photo').removeClass('hidden'); // show photo
                 $('#photobg').removeClass('hidden');
-            };
+            });
 
             //// doubleclick ////////
 
-            circle.on('dblclick', function () {
-                if (data.googlemaps != '') {
-                    window.open(data.googlemaps, '_blank'); // create link
-                }
-            });
+            // circle.on('dblclick', function () {
+            //     if (data.googlemaps != '') {
+            //         window.open(data.googlemaps, '_blank'); // create link
+            //     }
+            // });
 
             function playSound(name, volume) {
                 var audio = new Audio('assets/sounds/' + name + '.mp3'); // load audio
