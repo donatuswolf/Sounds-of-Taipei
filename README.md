@@ -35,7 +35,7 @@ Contribute your sound
 Database structure `places.json`
 -
 
-`id`: exact name of the sound and photo file – name in camelCase   
+`id`: exact name of the sound and photo file – name in <a href="https://en.wikipedia.org/wiki/Camel_case " target="_blank">camelCase</a>  
 sound file needs to be at *./assets/sounds*  
 photo file needs to be at *./assets/photos* in *jpg (600 x 400px)
 
@@ -48,18 +48,17 @@ photo file needs to be at *./assets/photos* in *jpg (600 x 400px)
 `db`:   how loud the song is on a scale from 0 to 1   
         that creates the size of the circle when hovered
 
-`x`:   Latitude coordinate 
+`x`:   Latitude coordinate in decimal number
 
-`y`:   Longitude coordinate
+`y`:   Longitude coordinate in decimal number
 
 `type`: there are three types right now:  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `location`: a location specific sound like the bird street  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `city`: a sound, that is specific for taipei, but not for a specific location, like the *peep* at the MRT entrance  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `event`: a sound that is only there at an specific event, like the lantern festival
 
-`time`: was the sound recorded by `day`or by `night`?
+`time`: was the sound recorded by `day` or by `night`?
 
 `author`: Who recorded the sound   
-first letter from the frist name, first and second from the last name   
-Ex: **D**onatus **Wo**lf = `DWo`
+[fist name] [last name]
 

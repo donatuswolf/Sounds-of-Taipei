@@ -8,7 +8,7 @@
         "y": 121.504003,
         "type": "location",
         "time": "day",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "AtHomeFridayMorning",
@@ -20,7 +20,7 @@
         "y": 121.517959,
         "type": "location",
         "time": "day",
-        "author": "MRu"
+        "author": "Mona Ruppert"
     },
     {
         "id": "NTUTClassroom",
@@ -32,7 +32,7 @@
         "y": 121.538167,
         "type": "location",
         "time": "day",
-        "author": "MRu"
+        "author": "Mona Ruppert"
     },
     {
         "id": "MRTWaitingForTrain_IMG_2910",
@@ -44,7 +44,7 @@
         "y": 121.527356,
         "type": "general",
         "time": "day",
-        "author": "MRu"
+        "author": "Mona Ruppert"
     },
     {
         "id": "MRTCheckout2",
@@ -56,7 +56,7 @@
         "y": 121.579582,
         "type": "general",
         "time": "day",
-        "author": "MRu"
+        "author": "Mona Ruppert"
     },
     {
         "id": "IjyshengGongguanStore_IMG_2906",
@@ -68,7 +68,7 @@
         "y": 121.531521,
         "type": "location",
         "time": "day",
-        "author": "MRu"
+        "author": "Mona Ruppert"
     },
     {
         "id": "mainStationHall",
@@ -80,7 +80,7 @@
         "y": 121.517130,
         "type": "location",
         "time": "day",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "twinkleTaipei",
@@ -92,7 +92,7 @@
         "y": 121.507338,
         "type": "event",
         "time": "night",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "arrivingTRA",
@@ -104,7 +104,7 @@
         "y": 121.499936,
         "type": "general",
         "time": "day",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "garbageTruck",
@@ -116,7 +116,7 @@
         "y": 121.522208,
         "type": "general",
         "time": "night",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "longshanTemple",
@@ -128,7 +128,7 @@
         "y": 121.499903,
         "type": "location",
         "time": "day",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "mainStationEntranceMRT",
@@ -140,7 +140,7 @@
         "y": 121.518682,
         "type": "general",
         "time": "day",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "bus226",
@@ -152,7 +152,7 @@
         "y": 121.533030,
         "type": "general",
         "time": "day",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "scooter",
@@ -164,7 +164,7 @@
         "y": 121.516742,
         "type": "general",
         "time": "day",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "zhinanTemple",
@@ -176,7 +176,7 @@
         "y": 121.586576,
         "type": "location",
         "time": "day",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "DongmenStation",
@@ -248,7 +248,7 @@
         "y": 121.543453,
         "type": "location",
         "time": "day",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "forest",
@@ -260,7 +260,7 @@
         "y": 121.583298,
         "type": "general",
         "time": "day",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "inMrt",
@@ -272,7 +272,7 @@
         "y": 121.554945,
         "type": "general",
         "time": "day",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "MrtCheckin",
@@ -284,7 +284,7 @@
         "y": 121.496751,
         "type": "general",
         "time": "",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "StreetTrafficConstruction",
@@ -296,7 +296,7 @@
         "y": 121.522100,
         "type": "general",
         "time": "day",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "traffic1",
@@ -308,7 +308,7 @@
         "y": 121.522473,
         "type": "general",
         "time": "night",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "traffic2",
@@ -320,7 +320,7 @@
         "y": 121.520234,
         "type": "general",
         "time": "day",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "bus",
@@ -332,7 +332,7 @@
         "y": 121.529091,
         "type": "general",
         "time": "day",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "hospital",
@@ -344,7 +344,7 @@
         "y": 121.553764,
         "type": "general",
         "time": "day",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "fuxingMRT",
@@ -356,7 +356,7 @@
         "y": 121.543622,
         "type": "general",
         "time": "day",
-        "author": "PSc"
+        "author": "Patrick Schneider"
     },
     {
         "id": "bbq",
@@ -368,7 +368,7 @@
         "y": 121.496384,
         "type": "location",
         "time": "day",
-        "author": "PSc"
+        "author": "Patrick Schneider"
     },
     {
         "id": "sizzle",
@@ -380,7 +380,7 @@
         "y": 121.564034,
         "type": "location",
         "time": "day",
-        "author": "PSc"
+        "author": "Patrick Schneider"
     },
     {
         "id": "deepFry",
@@ -392,7 +392,7 @@
         "y": 121.532319,
         "type": "location",
         "time": "day",
-        "author": "PSc"
+        "author": "Patrick Schneider"
     },
     {
         "id": "busRattle",
@@ -404,7 +404,7 @@
         "y": 121.546273,
         "type": "general",
         "time": "day",
-        "author": "PSc"
+        "author": "Patrick Schneider"
     },
     {
         "id": "campus711",
@@ -416,7 +416,7 @@
         "y": 121.534005,
         "type": "general",
         "time": "day",
-        "author": "PSc"
+        "author": "Patrick Schneider"
     },
     {
         "id": "twinkleGate",
@@ -428,7 +428,7 @@
         "y": 121.511234,
         "type": "event",
         "time": "night",
-        "author": "PSc"
+        "author": "Patrick Schneider"
     },
     {
         "id": "BirdsInTheMornig",
@@ -440,7 +440,7 @@
         "y": 121.464580,
         "type": "location",
         "time": "day",
-        "author": "KHL"
+        "author": "Kuan-Hua Liu"
     },
     {
         "id": "BusStop",
@@ -452,7 +452,7 @@
         "y": 121.466003,
         "type": "location",
         "time": "day",
-        "author": "KHL"
+        "author": "Kuan-Hua Liu"
     },
     {
         "id": "ConstructionSite",
@@ -464,7 +464,7 @@
         "y": 121.534349,
         "type": "location",
         "time": "day",
-        "author": "KHL"
+        "author": "Kuan-Hua Liu"
     },
     {
         "id": "PostOffice",
@@ -476,7 +476,7 @@
         "y": 121.467366,
         "type": "location",
         "time": "day",
-        "author": "KHL"
+        "author": "Kuan-Hua Liu"
     },
     {
         "id": "TrafficSoundsAtNight",
@@ -488,7 +488,7 @@
         "y": 121.464191,
         "type": "location",
         "time": "night",
-        "author": "KHL"
+        "author": "Kuan-Hua Liu"
     },
     {
         "id": "TranditionalMarket",
@@ -500,7 +500,7 @@
         "y": 121.465758,
         "type": "location",
         "time": "night",
-        "author": "KHL"
+        "author": "Kuan-Hua Liu"
     },
     {
         "id": "DaanparkPlayground",
@@ -512,7 +512,7 @@
         "y": 121.536213,
         "type": "location",
         "time": "day",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "RiverBirds",
@@ -524,7 +524,7 @@
         "y": 121.519917,
         "type": "location",
         "time": "night",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "TableTennisBridge",
@@ -536,7 +536,7 @@
         "y": 121.525590,
         "type": "location",
         "time": "day",
-        "author": "DWo"
+        "author": "Donatus Wolf"
     },
     {
         "id": "shilinBusstation",
@@ -548,7 +548,7 @@
         "y": 121.526966,
         "type": "general",
         "time": "night",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "operaCKS",
@@ -560,7 +560,7 @@
         "y": 121.522267,
         "type": "event",
         "time": "day",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "NTUNature",
@@ -572,7 +572,7 @@
         "y": 121.539459,
         "type": "general",
         "time": "day",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "NightmarketGambling",
@@ -584,7 +584,7 @@
         "y": 121.498589,
         "type": "general",
         "time": "night",
-        "author": "JKo"
+        "author": "Johanna Komesker"
     },
     {
         "id": "forestCricket",
