@@ -1,6 +1,6 @@
 # Sounds of Taipei
 
-An interactive map of Taipei that let's you explore the city through its unique sounds.
+An interactive map of Taipei that lets you explore the city through its unique sounds.
 
 
 NTUT · National Taipei University of Technology  
